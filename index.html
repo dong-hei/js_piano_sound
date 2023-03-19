@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>piano</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="zinee-piano">
+  <h1>ZINEE PIANO</h1>
+  <ul class="keys">
+    <li data-key="65" class="key"><kbd>A</kbd><span class="sound">도</span></li>
+    <li data-key="83" class="key"><kbd>S</kbd><span class="sound">레</span></li>
+    <li data-key="68" class="key"><kbd>D</kbd><span class="sound">미</span></li>
+    <li data-key="70" class="key"><kbd>F</kbd><span class="sound">파</span></li>
+    <li data-key="71" class="key"><kbd>G</kbd><span class="sound">솔</span></li>
+    <li data-key="72" class="key"><kbd>H</kbd><span class="sound">라</span></li>
+    <li data-key="74" class="key"><kbd>J</kbd><span class="sound">시</span></li>
+  </ul>
+
+  <!-- https://freesound.org/people/TheMineWay/ -->
+  <audio data-key="65" src="https://freesound.org/data/previews/392/392398_7397136-lq.mp3"></audio>
+  <audio data-key="83" src="https://freesound.org/data/previews/392/392402_7397136-lq.mp3"></audio>
+  <audio data-key="68" src="https://freesound.org/data/previews/392/392403_7397136-lq.mp3"></audio>
+  <audio data-key="70" src="https://freesound.org/data/previews/392/392397_7397136-lq.mp3"></audio>
+  <audio data-key="71" src="https://freesound.org/data/previews/392/392400_7397136-lq.mp3"></audio>
+  <audio data-key="72" src="https://freesound.org/data/previews/392/392396_7397136-lq.mp3"></audio>
+  <audio data-key="74" src="https://freesound.org/data/previews/392/392401_7397136-lq.mp3"></audio>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
